@@ -7,34 +7,29 @@
     --bg-secondary: #141418;
     --transition-speed: 600ms;
 }
-
 body{
     color: black;
     background-color: white;
     margin: 0;
     padding: 0;
 }
-
 body.night-mode{
     color: var(--text-primary);
     background-color: var(--bg-primary);
 }
-
 body::-webkit-scrollbar{
     width:1.25rem;
 }
-
 body::-webkit-scrollbar-track{
     background: #1e1e24;
 }
-
 body::-webkit-scrollbar-thumb{
     background: #6649b8;
 }
-
 main{
     margin-left:5rem;
     padding: 1rem;
+    padding-bottom: 6rem;
 }
 .navbar{
     position: fixed;
@@ -71,26 +66,19 @@ main{
     background: var(--bg-secondary);
     color:var(--text-secondary);
 }
-
 .link-text{
     display: none;
     margin-left: 1rem;
 }
-
 .nav-link .fas{
     font-size: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem; 
 }
-
-
-
-
 .fas{
     color:#6649b8;
     transition: var(--transition-speed);
 }
-
 .logo{
     font-weight: bold;
     text-transform: uppercase;
@@ -103,12 +91,10 @@ main{
     letter-spacing: 0.3ch;
     width:100%;
 }
-
 .logo .fas{
     transform: rotate(0deg);
     transition: transform var(--transition-speed);
 }
-
 .navbar:hover .logo .fas{
     transform: rotate(-180deg)
 }
@@ -147,4 +133,3 @@ main{
         display:block;
     }
 }
-
